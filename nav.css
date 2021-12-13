@@ -1,0 +1,56 @@
+/*herunder beskriver jeg baggrundsfarve og farve på tekst*/
+body{
+    margin: 0;
+    background-color:#627264 ;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-top: 33px;
+    color: white;
+}
+
+/*herunder er lukke krydset*/
+.closeBTN{
+    float: right;
+}
+
+/*herunder beskrives Mikkel Lau skriften og de 2 streger som er til højre og venstre for skriften*/
+p{
+    text-align: center;
+}
+
+.strokeLeft{
+
+}
+.strokeRight{
+
+}
+
+/*herunder beskrives linksne*/
+.forside{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.projekter{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.kontakt{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*herunder beskrives de sociale links(cv,mail,linkedin)*/
+.cv{
+    width: 100%;
+}
+
+.cv img{
+    display: flex;
+    float: left;
+}
