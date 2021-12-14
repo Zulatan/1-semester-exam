@@ -19,10 +19,14 @@ p{
 }
 
 .strokeLeft{
-
+    display: block;
+    margin-left: 29px;
+    margin-right: auto;
 }
 .strokeRight{
-
+    display: block;
+    margin-left: auto;
+    margin-right: 29px;
 }
 
 /*herunder beskrives linksne*/
@@ -30,18 +34,21 @@ p{
     display: block;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
 .projekter{
     display: block;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
 .kontakt{
     display: block;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
 
