@@ -3,6 +3,7 @@ body{
     margin-top: 13px;
     margin-left: 0px;
     margin-right: 0px;
+    font-family: futu;
 }
 
 /*herunder beskrives navigationsbaren med logo og burgermenu*/
@@ -41,19 +42,19 @@ section{
     margin-right: auto;
 }
 
-.cv_download{
+.cv_download_topper{
     display: flex;
     margin-left: 29px;
     margin-right: auto;
 }
 
-.e-mail{
+.e-mail_topper{
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-.linkedin{
+.linkedin_topper{
     display: flex;
     margin-left: auto;
     margin-right: 24px;
@@ -108,4 +109,80 @@ a{
     margin-right: auto;
     width: auto;
     margin-top: 10px;
+}
+
+/*herunder beskriver jeg sectionen med bollywood dance studio samt alle andre sectioners tekst og knap*/
+.section_projekter{
+    margin-left: 36px;
+    margin-right: 36px;
+    border-radius: 17px;
+    height: 740px;
+}
+
+.bds_billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_projekter p{
+    text-align: center;
+}
+
+.section_projekter h2{
+    text-align: center;
+}
+
+/*herunder definerer jeg sectionen med how to projektet*/
+.howto_billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*herunder definerer jeg sectionen med iværksætterkonkurrencen*/
+.hobbihub_billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*herunder beskriver jeg footeren*/
+.footer{
+    height: 254px;
+}
+
+.footer h2{
+   text-align: center; 
+}
+.kontakt_btn{
+    display: flex;
+    border-radius: 19px;
+    border: none;
+    background-color: white;
+    color: #627264;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 158px;
+    height: 36px;
+    box-shadow: 1.5px 1.5px 6px #000000;
+}
+
+.cv_download_footer{
+    display: flex;
+    margin-left: 29px;
+    margin-right: auto;
+}
+
+.e-mail_footer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin_footer{
+    display: flex;
+    margin-left: auto;
+    margin-right: 24px;
 }
