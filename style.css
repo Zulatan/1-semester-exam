@@ -3,6 +3,7 @@ body{
     margin-top: 13px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     font-family: futu;
 }
 
@@ -19,7 +20,9 @@ body{
 }
 
 nav{
-    margin-bottom: 81px ;
+    height: 150px;
+    display: flex;
+
 }
 
 /*herunder definerer jeg topperen med profil, tekst og sociale links*/
@@ -30,6 +33,11 @@ section{
     margin-right: 0px;
     color: white;
     margin-bottom: 93px;
+}
+
+.sociale_topper{
+    display: flex;
+    justify-content: space-between;
 }
 
 .titel{
@@ -167,6 +175,7 @@ a{
     width: 158px;
     height: 36px;
     box-shadow: 1.5px 1.5px 6px #000000;
+    margin-bottom: 104px;
 }
 
 .cv_download_footer{
@@ -187,4 +196,171 @@ a{
     margin-right: 24px;
 }
 
-/*herunder laver jeg media query til desktop version*/
+.sociale_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*herunder laver jeg media queries til ipad version*/
+@media screen and (max-width: 810px){
+/*herunder gemmer jeg navmenuen*/
+    .navmenu{
+        display: none;
+    }
+
+    .section_intro{
+        height: 525px;
+    }
+    .section_intro p{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px
+    }
+    .section_projekter{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 17px;
+    height: 740px;
+    width: 400px;
+    font-size: 20px;
+    }
+
+    .section_intro{
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 17px;
+        width: 400px;
+    }
+    .footer {
+        font-size: 20px;
+    }
+}
+
+/*herunder laver jeg media queries til desktop version*/
+@media screen and (min-width: 1281px){
+/*herunder gemmer jeg burgermenuen*/
+    .burgermenu{
+        display: none;
+    }
+/*herunder viser jeg navmenuen frem og definerer den*/
+    .navmenu{
+        display: show flex;
+        font-size: 31px;
+        margin-left:1521px;
+        margin-right: auto;
+    }
+    .navmenu a{
+        color: black;
+        justify-content: space-between;
+    }
+    .navmenu .nav_kontakt{
+        font-weight: bold;
+    }
+/*herunder definerer jeg toppen/profilen og sociale links*/
+    .topper{
+        height: 528px;
+    }
+    .profil{
+        height: 215px;
+        width: auto;
+    }
+    h2{
+        font-size: 60px;
+    }
+
+    .cv_download_topper{
+        margin-left: 600px;
+    }
+
+    .linkedin_topper{
+        margin-right: 600px;
+    }
+
+    .sociale_topper{
+        display: flex;
+        justify-content: space-between;
+    }
+/*herunder definerer jeg sectionen med intro*/
+    .section_intro{
+        width: 1640px;
+        height: 837px;
+        border-radius: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section_intro h3{
+        font-size: 70px;
+    }
+    .section_intro h4{
+        font-size: 55px;
+    }
+    .section_intro p{
+        font-size: 35px;
+        width: 1332px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projekter_btn{
+        display: flex;
+        border-radius: 66px;
+        border: none;
+        background-color: white;
+        color: #627264;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 398px;
+        height: 89px;
+        box-shadow: 1.5px 1.5px 6px #000000;
+        font-size: 51px;
+    }
+    .pil_ned{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 32px;
+        height: 39px;
+    }
+/*herunder definerer jeg sectionen med projekter*/
+    .section_projekter{
+        width: 1640px;
+        height: 810px;
+        border-radius: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+    }
+
+/*herunder definerer jeg footer med knap, skrift og sociale links */
+    .footer{
+        height: 526px;
+    }
+    .kontakt_btn{
+        display: flex;
+        border-radius: 66px;
+        border: none;
+        background-color: white;
+        color: #627264;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 398px;
+        height: 89px;
+        box-shadow: 1.5px 1.5px 6px #000000;
+        font-size: 51px;
+        margin-bottom: 114px;
+
+    }
+    .cv_download_footer{
+        margin-left: 600px;
+    }
+    .linkedin_footer{
+        margin-right: 600px;
+    }
+    .sociale_footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
