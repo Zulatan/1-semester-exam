@@ -14,15 +14,14 @@ body{
 }
 
 .burgermenu img{
-    float: right;
-    margin-right:29px ;
-    margin-top: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: 29px;
 }
 
 nav{
     height: 150px;
     display: flex;
-
 }
 
 /*herunder definerer jeg topperen med profil, tekst og sociale links*/
@@ -208,6 +207,11 @@ a{
         display: none;
     }
 
+    .burgermenu{
+        display: block;
+        margin-left: auto;
+        margin-right: 29px;
+    }
     .section_intro{
         height: 525px;
     }
