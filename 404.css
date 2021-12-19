@@ -1,0 +1,18 @@
+body{
+    background-color: #627264 ;
+    text-align: center;
+}
+
+a{
+    display: flex;
+    border-radius: 19px;
+    border: none;
+    background-color: white;
+    color: #627264;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 158px;
+    height: 36px;
+    box-shadow: 1.5px 1.5px 6px #000000;
+}

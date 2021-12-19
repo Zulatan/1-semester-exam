@@ -153,10 +153,10 @@ a{
     margin-right: auto;
 }
 
-.linkedin_footer{
+.kontakt_footer{
     display: flex;
     margin-left: auto;
-    margin-right: 24px;
+    margin-right: 600px;
 }
 
 .sociale_footer{
@@ -241,7 +241,7 @@ a{
         margin-left: 600px;
     }
 
-    .linkedin_topper{
+    .kontakt_topper{
         margin-right: 600px;
     }
 
