@@ -213,7 +213,7 @@ a{
     }
 /*herunder viser jeg navmenuen frem og definerer den*/
     .navmenu{
-        display: show flex;
+        display: flex;
         font-size: 31px;
         margin-left:1521px;
         margin-right: auto;
